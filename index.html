@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contest 2</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Library Management System</h1>
+        <div class="input1">
+            <label for="bookName">Book Name</label>
+            <input type="text" id="bookName">
+        </div>
+        <div class="input2">
+            <label for="issuedTo">Issued To</label>
+            <input type="text" id="issuedTo">
+        </div>
+        <button id="issueBtn">Issue Book</button>
+    </div>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr id="headingtr">
+                    <td>ID</td>
+                    <td>Book Name</td>
+                    <td>Issued To</td>
+                    <td>Issued Date and Time</td>
+                    <td>Status</td>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+            </tbody>
+        </table>
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/045b64dbec.js" crossorigin="anonymous"></script>
+</body>
+</html>

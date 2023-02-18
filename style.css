@@ -1,0 +1,64 @@
+body {
+    font-family: sans-serif;
+    background: black;
+    color: white;
+}
+
+.container{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    row-gap: 1rem;
+}
+
+.container div {
+    display: flex;
+    column-gap: 3rem;
+}
+
+.container .input2 {
+    column-gap: 4rem;
+}
+
+.container div input {
+    padding: 0.5rem 1rem;
+    width: 60%;
+    background: black;
+    border: 1px solid white;
+}
+
+.container div input[type="text"] {
+    color: white;
+}
+
+.container button {
+    padding: 0.5rem 0;
+    background: white;
+    border: none;
+    cursor: pointer;
+}
+
+.table-container {
+    /* border: 1px solid green; */
+    position: relative;
+    top: 5rem;
+}
+
+table, td {
+    border: 1px solid white;
+    width: 100%;
+    border-collapse: collapse;
+    padding: 0.5rem 1rem;
+}
+
+table #headingtr {
+    border: 1px solid white;
+}
+
+td {
+    width: 20%;
+}
+.id {
+    width: 10%;
+}
